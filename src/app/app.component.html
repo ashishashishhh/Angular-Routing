@@ -1,0 +1,27 @@
+<nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
+  <ul class = navbar-nav>
+    <li class ="nav-item">
+      <a class ="nav-link active" routerLink="home" routerLinkActive="active">home</a>
+    </li>
+
+    <li class = "nav-item"  routerLink="aboutus" routerLinkActive="active">
+      <a class = "nav-link">aboutus</a>
+    </li>
+    <li class = "nav-item"  routerLink="contactus" routerLinkActive="active">
+      <a class = "nav-link">contact</a>
+    </li>
+    <li>
+      <div class="dropdown">
+        <button class="dropbtn">Services</button>
+        <div class="dropdown-content">
+          <a class ="nav-link active" routerLink="hotel" routerLinkActive="active">Hotel</a>
+          <a class ="nav-link active" routerLink="flight" routerLinkActive="active">Flight</a>
+          <a class ="nav-link active" routerLink="travel" routerLinkActive="active">Travel</a>
+        </div>
+      </div>
+      
+    </li>
+    
+  </ul>
+</nav>
+<router-outlet></router-outlet>
